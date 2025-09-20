@@ -8,7 +8,7 @@ export const LocationsStrip: React.FC = () => (
     <div className="max-w-5xl mx-auto px-6 py-12">
       {/* brand headline */}
       <h2 className="text-5xl md:text-6xl font-black tracking-wider mb-10">
-        FOODCORP
+       OrderUK
       </h2>
 
       {/* location cards */}
