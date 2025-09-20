@@ -31,11 +31,12 @@ export default function MobileNavbar() {
 
   const NavbarItems: NavbarItem[] = [
     { label: "Home", path: "/" },
+    { label: "Menu", path: "/menu" },
     { label: "Browse Menu", path: "/details" },
-    { label: "Special Offers", path: "/offers" },
+    { label: "Special Offers", path: "*" },
     { label: "About", path: "/about" },
     { label: "Join The Family", path: "/jointhefamily" },
-    { label: "Track Order", path: "/track" },
+    { label: "Track Order", path: "*" },
   ];
 
   const handleNavbarItemClick = (): void => {

@@ -1,12 +1,12 @@
 // AboutUs.tsx
-import React from 'react';
+import React from "react";
 
 interface AboutUsProps {
   backgroundImage?: string; // url to the hero image
 }
 
 export const AboutUs: React.FC<AboutUsProps> = ({
-  backgroundImage = 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1950&q=80',
+  backgroundImage = "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1950&q=80",
 }) => {
   return (
     <section
@@ -22,7 +22,8 @@ export const AboutUs: React.FC<AboutUsProps> = ({
         </h2>
 
         <p className="mt-4 max-w-2xl text-lg md:text-xl leading-relaxed">
-          Crafting unforgettable culinary experiences is what drives us every day.
+          Crafting unforgettable culinary experiences is what drives us every
+          day.
         </p>
 
         <p className="mt-2 max-w-2xl text-base md:text-lg">
@@ -30,7 +31,7 @@ export const AboutUs: React.FC<AboutUsProps> = ({
         </p>
 
         <button
-          onClick={() => alert('Redirect to order page')}
+          onClick={() => alert("Redirect to order page")}
           className="mt-8 inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-lg shadow-lg transition"
         >
           ORDER NOW

@@ -23,7 +23,7 @@ export default function MobileHero() {
           />
           <button
             onClick={() => console.log('Search:', postcode)}
-            className="px-6 py-3 rounded-full bg-[#FF642D] text-white font-semibold hover:bg-[#e55629] transition"
+            className="px-3 py-3 rounded-full bg-[#FF642D] text-white font-semibold hover:bg-[#e55629] transition"
           >
             Search
           </button>

@@ -7,6 +7,7 @@ import AboutUsPage from "../pages/AboutPage";
 import DetailPage from "../pages/DetailPage";
 import HomePage from "../pages/HomePage";
 import JoinTheFamilyPage from "../pages/JoinTheFamilyPage";
+import MenuPage from "../pages/MenuPage";
 
 const Router: React.FC = () => {
   const routes: RouteObject[] = [
@@ -18,6 +19,8 @@ const Router: React.FC = () => {
         { path: "details", element: <DetailPage /> },
         { path: "jointhefamily", element: <JoinTheFamilyPage /> },
         { path: "about", element: <AboutUsPage /> },
+        { path: "menu", element: <MenuPage /> },
+
         {
           path: "*",
           element: (
