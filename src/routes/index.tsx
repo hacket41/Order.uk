@@ -3,11 +3,11 @@ import React from "react";
 import type { RouteObject } from "react-router-dom";
 import { useRoutes } from "react-router-dom";
 import Layout from "../detailcomponents/Layout/Layout";
-import MenuList from "../detailcomponents/MenuList";
 import AboutUsPage from "../pages/AboutPage";
 import DetailPage from "../pages/DetailPage";
 import HomePage from "../pages/HomePage";
 import JoinTheFamilyPage from "../pages/JoinTheFamilyPage";
+import MenuPage from "../pages/MenuPage";
 
 const Router: React.FC = () => {
   const routes: RouteObject[] = [
@@ -19,7 +19,7 @@ const Router: React.FC = () => {
         { path: "details", element: <DetailPage /> },
         { path: "jointhefamily", element: <JoinTheFamilyPage /> },
         { path: "about", element: <AboutUsPage /> },
-        { path: "menu", element: <MenuList menus={[]} /> },
+        { path: "menu", element: <MenuPage /> },
 
         {
           path: "*",
