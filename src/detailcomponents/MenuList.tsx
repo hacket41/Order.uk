@@ -20,14 +20,11 @@ const MenuList: React.FC<MenuListProps> = ({ menus }) => {
 
   return (
     <div className="container mx-auto px-4 py-6">
-      <h2 className="text-2xl font-bold text-gray-800 mb-2">Our Menu</h2>
-      <p className="text-gray-600 mb-6">Discover our delicious offerings</p>
-
       {groupedCategories.map((category) => (
         <div key={category.title} className="mb-10">
           {/* Category Title */}
           <div className="flex items-center mb-4">
-            <h3 className="text-2xl font-bold text-gray-800 mr-4">
+            <h3 className="text-4xl font-bold text-gray-800 mr-4">
               {category.title}
             </h3>
             <div className="flex-grow h-px bg-gray-300"></div>
