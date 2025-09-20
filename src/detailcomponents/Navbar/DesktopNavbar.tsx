@@ -15,6 +15,7 @@ export default function DesktopNavbar() {
 
   const desktopMenuItems: { label: string; path: string }[] = [
     { label: "Home", path: "/" },
+    { label: "Menu", path: "/menu" },
     { label: "Browse Menu", path: "/details" },
     { label: "Special Offers", path: "*" },
     { label: "About", path: "/about" },

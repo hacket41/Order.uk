@@ -7,7 +7,7 @@ export default function Hero() {
 
   return (
     <section className="hidden md:block">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="container mx-auto ">
         <div className="grid grid-cols-1 lg:grid-cols-2 rounded-2xl overflow-hidden shadow-lg min-h-[400px] ml-10">
           {/* LEFT - text + search */}
           <div className="px-8 py-10 space-y-5 bg-gradient-to-b from-[#FFF9F5] to-[#FFEEDD] flex flex-col justify-center">
@@ -42,7 +42,7 @@ export default function Hero() {
             <img
               src={girlImg}
               alt="Girl enjoying food"
-              className="h-[600px] object-contain drop-shadow-lg pt-50 mr-150"
+              className="h-[600px] object-contain drop-shadow-lg pt-50 mr-190"
             />
 
             {/* Floating cards (compact) */}
