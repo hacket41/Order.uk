@@ -12,11 +12,11 @@ export const History: React.FC = () => {
           </h2>
 
           <p className="text-lg leading-relaxed">
-            Embark on a journey with <span className="font-semibold">Food Corp Pizzeria</span>, where our story began with two brothers honing their skills in their father’s shop at a young age. Their passion for authentic Italian cuisine fueled their ambition, leading them to establish their own venture.
+            Embark on a journey with <span className="font-semibold">OrderUK</span>, where our story began with two brothers honing their skills in their father’s shop at a young age. Their passion for authentic Italian cuisine fueled their ambition, leading them to establish their own venture.
           </p>
 
           <p className="text-lg leading-relaxed">
-            From humble beginnings, <span className="font-semibold">Food Corp Pizza</span> emerged as a testament to their dedication and love for the craft. Today, we continue to uphold the values instilled by our founders, offering fresh and tasty Italian meals to our local community.
+            From humble beginnings, <span className="font-semibold">OrderUK</span> emerged as a testament to their dedication and love for the craft. Today, we continue to uphold the values instilled by our founders, offering fresh and tasty Italian meals to our local community.
           </p>
 
           <p className="text-sm uppercase tracking-widest text-stone-500">
