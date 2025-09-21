@@ -8,7 +8,7 @@ export default function MenuPage() {
   return (
     <>
       <div className="relative h-[40vh] min-h-[300px] max-h-[500px] w-full mb-8">
-        <div className="absolute inset-0 bg-black/30 z-10 rounded-lg"></div>
+        <div className="absolute inset-0 bg-black/70 z-10 rounded-lg"></div>
         <div className="h-full w-full overflow-hidden rounded-lg">
           <img
             src={heroBack}

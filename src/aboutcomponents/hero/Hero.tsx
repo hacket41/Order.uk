@@ -14,7 +14,7 @@ export const AboutUs: React.FC<AboutUsProps> = ({
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       {/* dark overlay so white text is readable */}
-      <div className="absolute inset-0 bg-black/50" />
+      <div className="absolute inset-0 bg-black/70" />
 
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-center text-white px-6">
         <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight">
