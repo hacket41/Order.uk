@@ -1,13 +1,16 @@
 // AboutUs.tsx
 import React from "react";
+import {useNavigate} from 'react-router-dom';
 
 interface AboutUsProps {
   backgroundImage?: string; // url to the hero image
 }
 
+
 export const AboutUs: React.FC<AboutUsProps> = ({
   backgroundImage = "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1950&q=80",
 }) => {
+  const navigate = useNavigate();  
   return (
     <section
       className="relative w-full h-[480px] md:h-[560px] bg-cover bg-center "
@@ -31,7 +34,7 @@ export const AboutUs: React.FC<AboutUsProps> = ({
         </p>
 
         <button
-          onClick={() => alert("Redirect to order page")}
+          onClick={() => navigate('/menu')}
           className="mt-8 inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-lg shadow-lg transition"
         >
           ORDER NOW
